@@ -1,0 +1,118 @@
+/* My first CSS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffcc;
+}
+
+img {
+    border: 10px solid green;
+}
+
+h1 {
+    border: 5px dotted red;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+}
+
+cite {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* CSS Class */
+.bifont { 
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+h, ol {
+    color: cadetblue;
+}
+
+a:link{
+    font-weight: bold;
+    text-decoration: none;
+    color: brown;
+}
+
+/* Descendant Selector*/
+ul a:link{
+    font-weight: normal;
+    text-decoration: beige;
+    color: blue;
+}
+
+a:visited {
+    color: green;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+    background-color: aqua;
+}
+
+a.special {
+    color: rgb(184, 11, 175);
+}
+
+/* Make only specific section changes*/
+section h6 { color: blue; }
+
+
+/* Id selector for specific ids.*/
+#danger {
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div {
+    border: 5px blue solid;
+    margin-bottom: 2rem;
+    background-color: lightblue;
+}
+
+.box1 {
+    border-color: orange;
+    background-color: olivedrab;
+    width: 25%;
+}
+
+.box2 p {
+    border : 2px solid green;
+    margin-top : 0;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin: 0;
+}
+
+a, strong, em {
+    border: 2px solid blue; /* Inline*/
+}
+
+.box3 {
+    background-image: url(https://placekitten.com/200/300);
+    height: 300px;
+}
+
+a.padding {
+    padding: initial;
+}
+a.example-textdecoration {
+    text-decoration: none;
+}
+
+header {
+    align-items: center;
+}

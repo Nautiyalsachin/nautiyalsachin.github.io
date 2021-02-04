@@ -1,0 +1,48 @@
+.floatleft {
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+article {
+    width: 25rem;
+    border : 3px solid red;
+    margin: 0 auto;
+}
+
+.floatleft {
+    float: left;
+}
+
+article:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* More CSS -  
+
+https://frontendmasters.github.io/bootcamp/css#id-selectors-idname 
+https://css-tricks.com
+Layouts - https://frontendmasters.github.io/bootcamp/layout#understanding-floats-and-clears
+Flexbox - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Grid - https://css-tricks.com/snippets/css/complete-guide-grid/
+*/
+
+.parent {
+    width: 200px;
+    box-sizing: border-box;
+    border: 5px solid #7c8e88;
+}
+
+.child {
+    box-sizing: content-box;
+    /* box-sizing: border-box; */
+    border: 10px solid #d74f25;
+    padding: 10px;
+    width: 100%;
+}
+
+table {
+    border-color: blue;
+}
